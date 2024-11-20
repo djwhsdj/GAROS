@@ -4,27 +4,25 @@ import time
 print('input the mode for training mode')
 mode = int(input())
 
-# seeds = [240211, 240216, 240220]
-# seeds = [231106, 231016, 232023, 232022, 231992]
-# seeds = [230621, 230622, 230623]
-
 '''
 2048x1024
 512x256
 '''
 
-# if args.mode == 0:
-#     name = 'No_pruning'
-# elif args.mode == 1:
-#     name = 'ours_fixed' # no best update
-# elif args.mode == 2:
-#     name = 'PATDNN'
-# elif args.mode == 3:
-#     name = 'RANDOM'
-# elif args.mode == 4:
-#     name = 'PAIRS'
-# elif args.mode == 5:
-#     name = 'ours_variables'
+      # if args.mode == 0:
+      #     name = 'No_pruning'  # original 
+      # elif args.mode == 1:
+      #     name = 'ours_fixed' # GAROS to compare with PAIRS
+      # elif args.mode == 2:
+      #     name = 'PATDNN'
+      # elif args.mode == 3:
+      #     name = 'RANDOM'
+      # elif args.mode == 4:
+      #     name = 'PAIRS'
+      # elif args.mode == 5:
+      #     name = 'ours_variables' # GAROS 
+      # elif args.mode == 6:
+      #     name = 'ours_variables_reverse' for GAROS_re or GAROS_ran
 
 
 if mode == 0 : 
