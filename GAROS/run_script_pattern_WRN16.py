@@ -5,12 +5,6 @@ print('input the mode for training mode')
 mode = int(input())
 
 
-'''
-2048x1024
-512x256
-'''
-
-
 
       # if args.mode == 0:
       #     name = 'No_pruning'  # original 
