@@ -17,7 +17,7 @@
       # elif args.mode == 6:
       #     name = 'ours_variables_reverse' for GAROS_re or GAROS_ran
 
-  ### Running GAROS
+  ## Running GAROS
   #### run_script_adaptive.py
     * This is a run script in ResNet-20 on CIFAR-10 and WRN16-4 on CIFAR-100
   #### run_script_adaptive_imagenet.py
