@@ -17,12 +17,12 @@
       # elif args.mode == 6:
       #     name = 'ours_variables_reverse' for GAROS_re or GAROS_ran
 
-  ### GAROS
+  ### Running GAROS
   #### run_script_adaptive.py
     * This is a run script in ResNet-20 on CIFAR-10 and WRN16-4 on CIFAR-100
   #### run_script_adaptive_imagenet.py
     * This is a run script code in ResNet-18 on ImageNet
 
-  ## Pattern-based pruning
+  ## Running Pattern-based pruning
   #### run_script_pattern_(ResNet20, WRN16-4, imagenet)
     * This is a run script code for pattern-based pruning methods in ResNet-20, WRN16-4, ResNet-18 repectively.
