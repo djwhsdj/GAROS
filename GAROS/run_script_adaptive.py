@@ -21,9 +21,7 @@ option = int(input())
       # elif args.mode == 6:
       #     name = 'ours_variables_reverse' for GAROS_re or GAROS_ran
 
-# a = []
-# for i in range(20):
-#     a.append(50*(i+1))
+
 
 b = []
 for i in range(20):
@@ -73,106 +71,7 @@ elif option == 2 :
     b = [0]
     lrrr = [1e-1]
     wb = 2
-# elif option == 1 : 
-#     models = ['WRN16-4_Q']
-#     dataset = ['cifar100'] 
-#     ar = 2048
-#     ac = 1024
-#     epoch = 0 # 100
-#     mask = [6]
-#     mode = [6]
-#     seeds = [240211, 240212, 240213, 240214] 
-#     GPU = 1
-#     b = [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600]
-#     lrrr = [1e-1]
-#     wb = 2
-
-# if option == 1 : 
-#     models = ['ResNet20_Q']
-#     dataset = ['cifar10'] 
-#     ar = 512
-#     ac = 256
-#     epoch = 30
-#     mask = [6]
-#     mode = [6]
-#     seeds = [240211]
-#     GPU = 1
-#     # a = [550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050]
-#     a = [1000]
-
-# if option == 2 : 
-#     models = ['ResNet20_Q']
-#     dataset = ['cifar10'] 
-#     ar = 512
-#     ac = 256
-#     epoch = 10
-#     mask = [6]
-#     mode = [5]
-#     seeds = [240211, 240216, 240220]
-#     GPU = 2
-#     a = [750, 800, 850, 900, 950, 1000, 1050]
-
-
-# elif option == 1 : 
-#     models = ['WRN16-4_Q']
-#     dataset = ['cifar100'] 
-#     ar = 2048
-#     ac = 1024
-#     epoch = 20 # 100
-#     mask = [6]
-#     mode = [6]
-#     seeds = [240213, 240214]
-#     GPU = 1
-#     b = [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600]
-#     lrrr = [1e-1]
-    
-
-# elif option == 2 : 
-#     models = ['WRN16-4_Q']
-#     dataset = ['cifar100'] 
-#     ar = 2048
-#     ac = 1024
-#     epoch = 20 # 100
-#     mask = [6]
-#     mode = [6]
-#     seeds = [240211, 240212]
-#     GPU = 0
-#     b = [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600]
-#     lrrr = [1e-1]
-
-# elif option == 3 : 
-#     models = ['WRN16-4_Q']
-#     dataset = ['cifar100'] 
-#     ar = 2048
-#     ac = 1024
-#     epoch = 20 # 100
-#     mask = [6]
-#     mode = [5]
-#     seeds = [240211]
-#     GPU = 1
-#     b = [3600]
-
-# elif option == 2 : 
-#     models = ['ResNet20_Q'] # ResNet20_Q
-#     dataset = ['cifar10'] 
-#     ar = 512
-#     ac = 256
-#     re_epoch = 100 # 100
-#     mask = [6]
-#     mode = [0]
-#     seeds = [2020,2021]
-#     GPU = 0
-
-# elif option == 3 : 
-#     models = ['ResNet20_Q']
-#     dataset = ['cifar10'] 
-#     ar = 512
-#     ac = 256
-#     re_epoch = 100 # 100
-#     mask = [6]
-#     mode = [0]
-#     seeds = [2022, 2023]
-#     GPU = 1
+      
     
 
 
