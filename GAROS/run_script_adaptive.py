@@ -9,7 +9,7 @@ option = int(input())
 # if args.mode == 0:
 #     name = 'No_pruning'
 # elif args.mode == 1:
-#     name = 'ours_fixed' # no best update
+#     name = 'ours_fixed'
 # elif args.mode == 2:
 #     name = 'PATDNN'
 # elif args.mode == 3:
