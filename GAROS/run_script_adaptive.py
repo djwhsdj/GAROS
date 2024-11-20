@@ -4,7 +4,6 @@ import time
 print('input the mode for training mode')
 option = int(input())
 
-# seeds = [1106, 1016, 2023, 2022]
 
       # if args.mode == 0:
       #     name = 'No_pruning'  # original 
