@@ -6,20 +6,20 @@ option = int(input())
 
 # seeds = [1106, 1016, 2023, 2022]
 
-# if args.mode == 0:
-#     name = 'No_pruning'
-# elif args.mode == 1:
-#     name = 'ours_fixed'
-# elif args.mode == 2:
-#     name = 'PATDNN'
-# elif args.mode == 3:
-#     name = 'RANDOM'
-# elif args.mode == 4:
-#     name = 'PAIRS'
-# elif args.mode == 5:
-#     name = 'ours_variables'
-# elif args.mode == 6:
-#     name = 'ours_variables_reverse'
+      # if args.mode == 0:
+      #     name = 'No_pruning'  # original 
+      # elif args.mode == 1:
+      #     name = 'ours_fixed' # GAROS to compare with PAIRS
+      # elif args.mode == 2:
+      #     name = 'PATDNN'
+      # elif args.mode == 3:
+      #     name = 'RANDOM'
+      # elif args.mode == 4:
+      #     name = 'PAIRS'
+      # elif args.mode == 5:
+      #     name = 'ours_variables' # GAROS 
+      # elif args.mode == 6:
+      #     name = 'ours_variables_reverse' for GAROS_re or GAROS_ran
 
 # a = []
 # for i in range(20):
